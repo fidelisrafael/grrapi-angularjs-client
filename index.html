@@ -1,0 +1,50 @@
+<!DOCTYPE html lang="pt-BR">
+<html>
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta http-Equiv="Cache-Control" Content="cache">
+  <meta http-Equiv="Pragma" Content="cache">
+  <meta http-Equiv="Expires" Content="1000">
+  <title>Awesome Product</title>
+
+  <link rel='stylesheet' id='open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;' type='text/css' media='all' />
+
+  <link rel='stylesheet' href='/css/site-style.css?v=0.0.1' type='text/css' media='all' />
+</head>
+
+<body class="app-body" ng-app="RASBWebApp">
+  <div id="wrap">
+    <section id="main-header">
+      <h1 class='site-title'><span class="image"></span> Awesome Product</h1>
+    </section>
+
+
+    <section class="content-wrapper container">
+      <div class="row">
+        <div ng-view id="main-view" class="col-md-12 text-center">
+        </div>
+      </div>
+    </section>
+
+    <div ng-include="'/views/footer.html'"></div>
+  </div>
+
+  <!-- Dependencies -->
+  <script type='text/javascript' src='/js/jquery/jquery.js'></script>
+  <script type='text/javascript' src='/js/jquery/jquery-migrate.min.js'></script>
+  <script type='text/javascript' src="/js/twitter-bootstrap/bootstrap.min.js"></script>
+  <script type='text/javascript' src="/js/vendor/html5.js"></script>
+  <script type='text/javascript' src="/js/app.js"></script>
+
+  <!-- Angular Core -->
+  <script type='text/javascript' src='/js/angular/angular.min.js'></script>
+  <script type='text/javascript' src='/js/angular/angular-route.min.js'></script>
+  <script type='text/javascript' src='/js/angular/angular-resource.min.js'></script>
+
+  <!-- Angular App -->
+  <script type='text/javascript' src='/js/app/controllers/users.js?v=0.0.1'></script>
+  <script type='text/javascript' src='/js/app/services.js?v=0.0.1'></script>
+  <script type='text/javascript' src='/js/app/bootstrap.js?v=0.0.1'></script>
+  </body>
+</html>
