@@ -8,6 +8,25 @@ Documentation will be added later.
 
 ---
 
+## Screenshots
+
+Bellow a simple screenshot of AngularJS application fully integrated with our API boilerplate responses:
+
+##### Password reset integration
+
+| screen | success | error |
+|--------|---------|-------|
+|![Password Reset](http://i.imgur.com/3LnuqXJ.png) | ![Password successfully updated feedback](http://i.imgur.com/jXvHU4a.png)| ![Password error feedback](http://i.imgur.com/0zgJAYM.png) |
+
+<br />
+##### Account confirmation integration
+
+| success | success | error |
+|---------|---------|-------|
+|![](http://i.imgur.com/QhXEpE9.png) | ![Account confirmation](http://i.imgur.com/NI6lYg0.png)| ![Invalid token](http://i.imgur.com/0zgJAYM.png) |
+
+---
+
 ## How to use
 
 
